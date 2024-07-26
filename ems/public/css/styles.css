@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 8px;
+}
+
+
+
+
+
+/* Flex container styles */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+label, h1 {
+  justify-content: left;
+  font-weight: bold;
+  color: white;
+}
+
+input, button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for details and messages */
+.details, #message {
+  margin-top: 20px;
+}
+
+/* Main menu styling */
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+
+.main-menu a {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.main-menu a:hover {
+  background-color: #0056b3;
+}}
+
+li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
